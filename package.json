@@ -1,0 +1,25 @@
+{
+  "name": "contacform-nodemailer",
+  "version": "1.0.0",
+  "description": "testing app using nodemailer and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikila99gimhan/contacform-nodemailer.git"
+  },
+  "author": "Nikila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikila99gimhan/contacform-nodemailer/issues"
+  },
+  "homepage": "https://github.com/Nikila99gimhan/contacform-nodemailer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "nodemailer": "^6.6.2"
+  }
+}
