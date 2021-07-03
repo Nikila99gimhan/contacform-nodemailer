@@ -5,6 +5,11 @@ const nodemailer = require('nodemailer');
 
 const app = express();
 
+//view Engine Setup
+
+app.engine('handlebars',exphbs());
+app.set('view engine' , 'handlebars');
+
 app.get('/',(req,res) => {
     res.send("hello");
 
