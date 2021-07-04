@@ -24,7 +24,19 @@ app.get('/',(req,res) => {
 });
 
 app.post('/send', (req,res) => {
-    console.log(req.body);
+    const output = `
+    <p>You Have a new  contact message</p>
+    <h3>cONTACT dETAILS</h3>
+    <ul>
+        <li>First Name: ${req.body.fname}</li>
+        <li>Last Name: ${req.body.lname}</li>
+        <li>Email: ${req.body.email}</li>
+       
+    
+    </ul>
+    <h3>Message</h3>
+     <p>${req.body.comment}</p>
+     `;
 })
 
 app.listen(3000, () => console.log('sever started......'));
