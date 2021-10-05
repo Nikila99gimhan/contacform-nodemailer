@@ -1,4 +1,4 @@
-const months = ["January", "February", "March", "April", "May", "June", "July"];
+const months = ["January", "February", "March", "April", "May", "June", "July","August"];
 
 const random = Math.floor(Math.random() * months.length);
 console.log(random, months[random]);
