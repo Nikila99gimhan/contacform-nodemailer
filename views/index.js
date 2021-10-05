@@ -3,3 +3,6 @@ const week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
 
 const random = Math.floor(Math.random() * months.length);
 console.log(random, months[random]);
+
+const random = Math.floor(Math.random() * week.length);
+console.log(random, week[random]);
