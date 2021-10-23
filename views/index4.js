@@ -1,5 +1,5 @@
-const languages = ["Spanish","English","Hindi","Chinese"];
+const methodologies = ["V model","Iterative","Waterfall","Agile"];
 
 
-const random = Math.floor(Math.random() * laguages.length);
-console.log(random, languages[random]);
+const random = Math.floor(Math.random() * methodologies.length);
+console.log(random, methodologies[random]);
